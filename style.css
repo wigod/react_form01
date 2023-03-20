@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+#container{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /*background-color: blueviolet;*/
+   background-image: url(img/ecorce.jpg);
+   border-radius: 1.5rem;
+   color: white;
+   font-size: 30px;
+}
+.formulaire form{
+    display: flex;
+    flex-direction: column;    
+    margin: 1rem;
+}
+.formulaire form input{
+    margin: 0.5rem 0;
+    width: 350px;
+    height: 40px;
+}
+.btnAdherer{
+    color: white;
+    background-color: brown;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 1rem;
+}
